@@ -1,3 +1,8 @@
+<a name="1.2.6"></a>
+# 1.2.6 (2022-03-23)
+
+* Removed leaking scss in ngx-gallery.component.scss
+
 <a name="1.0.11"></a>
 # 1.0.11 (2020-03-05)
 
