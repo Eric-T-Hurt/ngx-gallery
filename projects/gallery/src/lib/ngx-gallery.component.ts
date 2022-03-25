@@ -34,6 +34,7 @@ import {NgxGalleryLayout} from './ngx-gallery-layout';
 export class NgxGalleryComponent implements OnInit, DoCheck, AfterViewInit {
   @Input() options: NgxGalleryOptions[] = [{}];
   @Input() images: NgxGalleryImage[];
+  @Input() previewPlaceholder: string;
 
   @Output() imagesReady = new EventEmitter();
   // eslint-disable-next-line @angular-eslint/no-output-native

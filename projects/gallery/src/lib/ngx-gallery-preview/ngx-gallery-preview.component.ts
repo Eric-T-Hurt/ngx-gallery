@@ -73,6 +73,7 @@ export class NgxGalleryPreviewComponent implements OnInit, OnDestroy, OnChanges 
   @Input() download: boolean;
   @Input() downloadIcon: string;
   @Input() bullets: string;
+  @Input() previewPlaceholder: string;
 
   @Output() previewOpen = new EventEmitter();
   @Output() previewClose = new EventEmitter();
@@ -102,7 +103,7 @@ export class NgxGalleryPreviewComponent implements OnInit, OnDestroy, OnChanges 
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes.swipe) {
+    if (changes['swipe']) {
       this.helperService.manageSwipe(this.swipe, this.elementRef,
         'preview', () => this.showNext(), () => this.showPrev());
     }
