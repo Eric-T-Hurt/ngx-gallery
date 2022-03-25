@@ -1,3 +1,8 @@
+<a name="1.2.7"></a>
+# 1.2.7 (2022-03-23)
+
+* Handling an incorrect link from the preview - the possibility of inserting a placeholder
+
 <a name="1.2.6"></a>
 # 1.2.6 (2022-03-23)
 
