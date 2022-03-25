@@ -352,6 +352,10 @@ export class NgxGalleryPreviewComponent implements OnInit, OnDestroy, OnChanges 
     }
   }
 
+  onImageError(): void{
+    this.src = this.previewPlaceholder;
+  }
+
   private getClientX(e): number {
     return e.touches && e.touches.length ? e.touches[0].clientX : e.clientX;
   }
