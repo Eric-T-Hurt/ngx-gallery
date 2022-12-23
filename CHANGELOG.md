@@ -1,4 +1,9 @@
 <a name="1.2.7"></a>
+# 15.0.0 (2022-12-23)
+
+* Added compatibility for Angular 15
+
+<a name="1.2.7"></a>
 # 1.2.7 (2022-03-23)
 
 * Handling an incorrect link from the preview - the possibility of inserting a placeholder
