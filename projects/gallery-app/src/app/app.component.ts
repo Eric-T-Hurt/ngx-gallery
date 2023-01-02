@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {NgxGalleryOptions} from '@kolkov/ngx-gallery';
-import {NgxGalleryImage} from '@kolkov/ngx-gallery';
-import {NgxGalleryAnimation} from '@kolkov/ngx-gallery';
+import {NgxGalleryOptions} from '@murbanczyk-fp/ngx-gallery';
+import {NgxGalleryImage} from '@murbanczyk-fp/ngx-gallery';
+import {NgxGalleryAnimation} from '@murbanczyk-fp/ngx-gallery';
+import { VERSION } from '@angular/core'
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,8 @@ import {NgxGalleryAnimation} from '@kolkov/ngx-gallery';
 export class AppComponent implements OnInit{
   galleryOptions: NgxGalleryOptions[];
   galleryImages: NgxGalleryImage[];
+  title = 'gallery-app';
+  angularVersion = VERSION.full;
 
   constructor() { }
 

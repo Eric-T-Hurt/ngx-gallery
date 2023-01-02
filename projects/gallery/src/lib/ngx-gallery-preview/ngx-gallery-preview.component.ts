@@ -73,6 +73,7 @@ export class NgxGalleryPreviewComponent implements OnInit, OnDestroy, OnChanges 
   @Input() download: boolean;
   @Input() downloadIcon: string;
   @Input() bullets: boolean;
+  @Input() previewPlaceholder: string;
 
   @Output() previewOpen = new EventEmitter();
   @Output() previewClose = new EventEmitter();
@@ -349,6 +350,10 @@ export class NgxGalleryPreviewComponent implements OnInit, OnDestroy, OnChanges 
       this.positionLeft = this.initialLeft + (this.getClientX(e) - this.initialX);
       this.positionTop = this.initialTop + (this.getClientY(e) - this.initialY);
     }
+  }
+
+  onImageError(): void{
+    this.src = this.previewPlaceholder;
   }
 
   private getClientX(e): number {
