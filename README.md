@@ -1,4 +1,6 @@
 # NgxGallery
+Version 15 adds support to Angular 15
+
 A simple native gallery component for Angular 8+.
 
 [![npm version](https://badge.fury.io/js/%40kolkov%2Fngx-gallery.svg)](https://badge.fury.io/js/%40kolkov%2Fngx-gallery)
