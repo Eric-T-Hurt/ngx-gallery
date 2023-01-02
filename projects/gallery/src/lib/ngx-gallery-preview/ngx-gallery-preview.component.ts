@@ -72,7 +72,7 @@ export class NgxGalleryPreviewComponent implements OnInit, OnDestroy, OnChanges 
   @Input() rotateRightIcon: string;
   @Input() download: boolean;
   @Input() downloadIcon: string;
-  @Input() bullets: string;
+  @Input() bullets: boolean;
   @Input() previewPlaceholder: string;
 
   @Output() previewOpen = new EventEmitter();
