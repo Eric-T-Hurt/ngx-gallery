@@ -1,7 +1,17 @@
-<a name="1.2.7"></a>
+<a name="15.0.1"></a>
+# 15.0.1 (2023-01-02)
+
+* Various minor fixes
+
+<a name="15.0.0"></a>
 # 15.0.0 (2022-12-23)
 
 * Added compatibility for Angular 15
+
+<a name="2.0.0"></a>
+# 2.0.0 (2022-01-06)
+
+* Update to Angular v13 and new Ivy package format
 
 <a name="1.2.7"></a>
 # 1.2.7 (2022-03-23)
