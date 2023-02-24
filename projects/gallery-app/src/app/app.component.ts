@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, VERSION} from '@angular/core';
 import {NgxGalleryOptions} from '@murbanczyk-fp/ngx-gallery';
 import {NgxGalleryImage} from '@murbanczyk-fp/ngx-gallery';
 import {NgxGalleryAnimation} from '@murbanczyk-fp/ngx-gallery';
@@ -11,6 +11,7 @@ import {NgxGalleryAnimation} from '@murbanczyk-fp/ngx-gallery';
 export class AppComponent implements OnInit{
   galleryOptions: NgxGalleryOptions[];
   galleryImages: NgxGalleryImage[];
+  angularVersion = VERSION.full;
 
   constructor() { }
 
