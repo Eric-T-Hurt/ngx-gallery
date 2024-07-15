@@ -1,7 +1,7 @@
 <a name="15.0.1"></a>
 # 16.0.0 (2024-07-15)
 
-* Added compatibility for Angular 15
+* Added compatibility for Angular 16
 
 <a name="15.0.1"></a>
 # 15.0.1 (2023-01-02)
