@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build gallery-app",
-    "build-prod": "ng build --configuration production gallery-app",
+    "build": "ng build @murbanczyk-fp/ngx-gallery && ng build gallery-app",
+    "build-prod": "ng build --configuration production @murbanczyk-fp/ngx-gallery && ng build --configuration production gallery-app",
     "test": "ng test",
     "lint:lib": "ng lint @murbanczyk-fp/ngx-gallery",
     "build-watch:lib": "ng build @murbanczyk-fp/ngx-gallery --watch",
