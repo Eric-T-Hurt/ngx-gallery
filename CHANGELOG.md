@@ -1,4 +1,4 @@
-<a name="15.0.1"></a>
+<a name="16.0.0"></a>
 # 16.0.0 (2024-07-15)
 
 * Added compatibility for Angular 16
