@@ -1,7 +1,7 @@
 {
   "name": "@murbanczyk-fp/ngx-gallery",
   "version": "16.0.0",
-  "description": "A simple responsive native gallery component for Angular 15 based on kolkov/ngx-gallery.",
+  "description": "A simple responsive native gallery component for Angular 16 based on kolkov/ngx-gallery.",
   "author": "Michał Urbańczyk <turban87@gmail.com>",
   "repository": "https://github.com/murbanczyk-fp/ngx-gallery",
   "license": "MIT",
