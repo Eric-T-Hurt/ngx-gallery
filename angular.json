@@ -147,18 +147,6 @@
               "projects/gallery-app/**/*.html"
             ]
           }
-        },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "projects/gallery-app/e2e/protractor.conf.js",
-            "devServerTarget": "gallery-app:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "gallery-app:serve:production"
-            }
-          }
         }
       }
     }
