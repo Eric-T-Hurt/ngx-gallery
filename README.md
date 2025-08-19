@@ -1,7 +1,7 @@
 # NgxGallery
-Version 15 adds support to Angular 15.
+Version 19 adds support to Angular 19.
 
-A simple native gallery component for Angular 13+.
+A simple native gallery component for Angular 19+.
 [Base Repo](https://github.com/kolkov/ngx-gallery) with instructions.
 
 ## Getting Started
@@ -15,11 +15,11 @@ npm install @murbanczyk-fp/ngx-gallery --save
 ```
 ### Versions
 
-15.x.x - support for Angular 15
+19.x.x - support for Angular 19
 
 ## Creators
 
-**Michał Urbańczyk** (Angular 15 support)
+**Michał Urbańczyk** (Angular 19 support)
 
 **Andrey Kolkov**
 

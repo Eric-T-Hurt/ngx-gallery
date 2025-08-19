@@ -1,7 +1,7 @@
 {
   "name": "@murbanczyk-fp/ngx-gallery",
-  "version": "15.0.1",
-  "description": "A simple responsive native gallery component for Angular 15 based on kolkov/ngx-gallery.",
+  "version": "19.0.0",
+  "description": "A simple responsive native gallery component for Angular 19 based on kolkov/ngx-gallery.",
   "author": "Michał Urbańczyk <turban87@gmail.com>",
   "repository": "https://github.com/murbanczyk-fp/ngx-gallery",
   "license": "MIT",
@@ -10,9 +10,9 @@
     "url": "https://github.com/murbanczyk-fp/ngx-gallery/issues"
   },
   "peerDependencies": {
-    "@angular/common": ">=13.0.0 <16",
-    "@angular/core": ">=13.0.0 <16",
-    "@angular/animations": ">=13.0.0 <16",
+    "@angular/common": ">=19.0.0 <20",
+    "@angular/core": ">=19.0.0 <20",
+    "@angular/animations": ">=19.0.0 <20",
     "tslib": "^2.0.0"
   },
   "dependencies": {
